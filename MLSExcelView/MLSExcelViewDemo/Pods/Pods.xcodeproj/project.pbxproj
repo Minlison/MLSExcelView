@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC377283A31646479CE9E115F502EDD /* MLSExcelView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4F46F946BF55D4D53B3ADD85DB21190 /* MLSExcelView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10542B8795B0A2005C8B3D9D5BED48BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		10F960C62020B2D138997DBF452CCDB7 /* MLSExcelViewCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A57D98DBB41D79D65213BD1869819F2B /* MLSExcelViewCollectionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D9EA27688BAC2F0FD4368BC68759C70 /* MLSExcelViewView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BF456934779EE41194A140E277CEC6 /* MLSExcelViewView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3BBE2FC467F37438A801C81930EAF60E /* MLSIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E8B540015C05A9E3A4DB501C1557C9 /* MLSIndexPath.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		48D8E64DF05514027A629904F1C0CAB7 /* MLSExcelViewCollectionHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 083779782DFAEB76C2BD72EF1C1B8532 /* MLSExcelViewCollectionHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A33AC8495A98A83DF4C65CFC7B2FD2F /* Pods-MLSExcelViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4500104904A599A9E1B524B821A51 /* Pods-MLSExcelViewDemo-dummy.m */; };
+		5F766DA5F8948565825712A99A734155 /* MLSExcelViewCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F28F32EC701937CB3ECEE2DE329673FD /* MLSExcelViewCollectionHeaderView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		64997F6F6F04142FD1F55C2A8C87E2CE /* NSString+MLSExcelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ADC7A70F9541C811ACE9083D84446 /* NSString+MLSExcelView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6DA38C4B5F2BC6530129BD3B73EAD0FF /* MLSExcelViewView.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F49A7F7D457E520AEACE0A6A8F5A34 /* MLSExcelViewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7350355192D91A90D3746F39ECE4B2C2 /* MLSExcelViewCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC4C72B1AED7963B6F88C3F9FB0DCA /* MLSExcelViewCollectionCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7FC1183F50558A164AA87F22405A1D5E /* MLSExcelViewViewEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 600E56C70F241408F682F35B60323D1F /* MLSExcelViewViewEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		802025011C19BBD4705CE8F7307C399D /* MLSExcelView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 621D67795AA49B33AC41E7E624CE9857 /* MLSExcelView-dummy.m */; };
+		8C78744ED4EEC516E15AAD460FB3AAF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		A7E5D2B5D1DA4244A0D7CD3D2E17C6CA /* MLSExcelViewViewMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF4BED9CC933AA6950024DA69B6FABA /* MLSExcelViewViewMarcos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9E690301D81B013C57251AE3FCA419A /* MLSExcelViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 60187DF4C057BA2C8C2740573C6E6884 /* MLSExcelViewHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA60E283241E25F95B16508476FECDE /* NSString+MLSExcelView.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBB52CD97F027FBEC374F027AE11842 /* NSString+MLSExcelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE4A1BEBCC0CB4A7B95E3CCC4A523D6F /* Pods-MLSExcelViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD47DBB0C4A373AB3A079CC78A2C2C6F /* Pods-MLSExcelViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5DBF4F4FD950FE3E1168316AF36F89B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F6F331CD04374E6FC9CB085A1399626F /* MLSIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AEF91E81F23B865F3425112AD7EF700 /* MLSIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AD016632606F23EC41D33DD01596F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91538CFCDB21DD25C06946241FFCD08C;
+			remoteInfo = MLSExcelView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041F781DA664ACC3728289ED33834F74 /* Pods-MLSExcelViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MLSExcelViewDemo.modulemap"; sourceTree = "<group>"; };
+		083779782DFAEB76C2BD72EF1C1B8532 /* MLSExcelViewCollectionHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLSExcelViewCollectionHeaderView.h; sourceTree = "<group>"; };
+		0D370C73D6EAD82A2BE1E80A9D1B6372 /* Pods-MLSExcelViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLSExcelViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		10374B4AD9FFA8623AC23368A6AE804D /* MLSExcelView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MLSExcelView.framework; path = MLSExcelView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		186CEEFC29D1C7779EB3194FF4220E92 /* Pods-MLSExcelViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MLSExcelViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AC721FEB336F4F41E59019DD95BB89A /* Pods-MLSExcelViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLSExcelViewDemo-resources.sh"; sourceTree = "<group>"; };
+		1AEF91E81F23B865F3425112AD7EF700 /* MLSIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLSIndexPath.h; sourceTree = "<group>"; };
+		326529712C29A61BABBBF0864C82BBED /* MLSExcelView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLSExcelView-prefix.pch"; sourceTree = "<group>"; };
+		38680188AB19ABC5E796E1580D5F511B /* MLSExcelView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLSExcelView.xcconfig; sourceTree = "<group>"; };
+		530ADC7A70F9541C811ACE9083D84446 /* NSString+MLSExcelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+MLSExcelView.m"; sourceTree = "<group>"; };
+		5FEC4C72B1AED7963B6F88C3F9FB0DCA /* MLSExcelViewCollectionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLSExcelViewCollectionCell.m; sourceTree = "<group>"; };
+		5FF4BED9CC933AA6950024DA69B6FABA /* MLSExcelViewViewMarcos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLSExcelViewViewMarcos.h; sourceTree = "<group>"; };
+		600E56C70F241408F682F35B60323D1F /* MLSExcelViewViewEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLSExcelViewViewEnum.h; sourceTree = "<group>"; };
+		60187DF4C057BA2C8C2740573C6E6884 /* MLSExcelViewHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLSExcelViewHeader.h; sourceTree = "<group>"; };
+		621D67795AA49B33AC41E7E624CE9857 /* MLSExcelView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLSExcelView-dummy.m"; sourceTree = "<group>"; };
+		84A4500104904A599A9E1B524B821A51 /* Pods-MLSExcelViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MLSExcelViewDemo-dummy.m"; sourceTree = "<group>"; };
+		84ED735F0C0819D3AA5BBCEA397E8F81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98172080FC6E124C75E745534629F472 /* Pods-MLSExcelViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLSExcelViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9E28270525A998A85D0890D417F150B8 /* Pods-MLSExcelViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MLSExcelViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A57D98DBB41D79D65213BD1869819F2B /* MLSExcelViewCollectionCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLSExcelViewCollectionCell.h; sourceTree = "<group>"; };
+		A8E8B540015C05A9E3A4DB501C1557C9 /* MLSIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLSIndexPath.m; sourceTree = "<group>"; };
+		ACBB52CD97F027FBEC374F027AE11842 /* NSString+MLSExcelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+MLSExcelView.h"; sourceTree = "<group>"; };
+		AF2EE82A5955375CE79F71C35B7F5FB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD47DBB0C4A373AB3A079CC78A2C2C6F /* Pods-MLSExcelViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MLSExcelViewDemo-umbrella.h"; sourceTree = "<group>"; };
+		C46A2937766A0DC6ABE97EE8B2DA9B3B /* Pods_MLSExcelViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MLSExcelViewDemo.framework; path = "Pods-MLSExcelViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F46F946BF55D4D53B3ADD85DB21190 /* MLSExcelView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLSExcelView-umbrella.h"; sourceTree = "<group>"; };
+		D6B8B12FAD5CC70D8844B94779BF593B /* MLSExcelView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MLSExcelView.modulemap; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D8CB99E7BD16827B2B24E9C0384520E4 /* Pods-MLSExcelViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLSExcelViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E6F49A7F7D457E520AEACE0A6A8F5A34 /* MLSExcelViewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLSExcelViewView.h; sourceTree = "<group>"; };
+		E8BF456934779EE41194A140E277CEC6 /* MLSExcelViewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLSExcelViewView.m; sourceTree = "<group>"; };
+		F28F32EC701937CB3ECEE2DE329673FD /* MLSExcelViewCollectionHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLSExcelViewCollectionHeaderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96516F39918032BE67F7330BCFD1CF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DBF4F4FD950FE3E1168316AF36F89B /* Foundation.framework in Frameworks */,
+				8C78744ED4EEC516E15AAD460FB3AAF8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7304072BBBBE9BB567483E8F1FC0C3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10542B8795B0A2005C8B3D9D5BED48BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100DBE6274B17AF356BB314C19157E67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10374B4AD9FFA8623AC23368A6AE804D /* MLSExcelView.framework */,
+				C46A2937766A0DC6ABE97EE8B2DA9B3B /* Pods_MLSExcelViewDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388B5E5B66A6A5F7231D91C29C56C718 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF2EE82A5955375CE79F71C35B7F5FB8 /* Info.plist */,
+				D6B8B12FAD5CC70D8844B94779BF593B /* MLSExcelView.modulemap */,
+				38680188AB19ABC5E796E1580D5F511B /* MLSExcelView.xcconfig */,
+				621D67795AA49B33AC41E7E624CE9857 /* MLSExcelView-dummy.m */,
+				326529712C29A61BABBBF0864C82BBED /* MLSExcelView-prefix.pch */,
+				C4F46F946BF55D4D53B3ADD85DB21190 /* MLSExcelView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../MLSExcelViewDemo/Pods/Target Support Files/MLSExcelView";
+			sourceTree = "<group>";
+		};
+		3DDBF779164917A103B89CE3651FE5E5 /* Pods-MLSExcelViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84ED735F0C0819D3AA5BBCEA397E8F81 /* Info.plist */,
+				041F781DA664ACC3728289ED33834F74 /* Pods-MLSExcelViewDemo.modulemap */,
+				186CEEFC29D1C7779EB3194FF4220E92 /* Pods-MLSExcelViewDemo-acknowledgements.markdown */,
+				9E28270525A998A85D0890D417F150B8 /* Pods-MLSExcelViewDemo-acknowledgements.plist */,
+				84A4500104904A599A9E1B524B821A51 /* Pods-MLSExcelViewDemo-dummy.m */,
+				0D370C73D6EAD82A2BE1E80A9D1B6372 /* Pods-MLSExcelViewDemo-frameworks.sh */,
+				1AC721FEB336F4F41E59019DD95BB89A /* Pods-MLSExcelViewDemo-resources.sh */,
+				BD47DBB0C4A373AB3A079CC78A2C2C6F /* Pods-MLSExcelViewDemo-umbrella.h */,
+				98172080FC6E124C75E745534629F472 /* Pods-MLSExcelViewDemo.debug.xcconfig */,
+				D8CB99E7BD16827B2B24E9C0384520E4 /* Pods-MLSExcelViewDemo.release.xcconfig */,
+			);
+			name = "Pods-MLSExcelViewDemo";
+			path = "Target Support Files/Pods-MLSExcelViewDemo";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DDA9D6204D1594D8FE7905E9AB9D6D5E /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				100DBE6274B17AF356BB314C19157E67 /* Products */,
+				975548BB19F6C65347454A6A0B1F5822 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		975548BB19F6C65347454A6A0B1F5822 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DDBF779164917A103B89CE3651FE5E5 /* Pods-MLSExcelViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC5C9147108F90CBC1E9832F44FE3F14 /* MLSExcelView */ = {
+			isa = PBXGroup;
+			children = (
+				C365D2AB46599AA47866FDC947E259EB /* MLSExcelView */,
+				388B5E5B66A6A5F7231D91C29C56C718 /* Support Files */,
+			);
+			name = MLSExcelView;
+			path = ../../MLSExcelView;
+			sourceTree = "<group>";
+		};
+		C365D2AB46599AA47866FDC947E259EB /* MLSExcelView */ = {
+			isa = PBXGroup;
+			children = (
+				A57D98DBB41D79D65213BD1869819F2B /* MLSExcelViewCollectionCell.h */,
+				5FEC4C72B1AED7963B6F88C3F9FB0DCA /* MLSExcelViewCollectionCell.m */,
+				083779782DFAEB76C2BD72EF1C1B8532 /* MLSExcelViewCollectionHeaderView.h */,
+				F28F32EC701937CB3ECEE2DE329673FD /* MLSExcelViewCollectionHeaderView.m */,
+				60187DF4C057BA2C8C2740573C6E6884 /* MLSExcelViewHeader.h */,
+				E6F49A7F7D457E520AEACE0A6A8F5A34 /* MLSExcelViewView.h */,
+				E8BF456934779EE41194A140E277CEC6 /* MLSExcelViewView.m */,
+				600E56C70F241408F682F35B60323D1F /* MLSExcelViewViewEnum.h */,
+				5FF4BED9CC933AA6950024DA69B6FABA /* MLSExcelViewViewMarcos.h */,
+				1AEF91E81F23B865F3425112AD7EF700 /* MLSIndexPath.h */,
+				A8E8B540015C05A9E3A4DB501C1557C9 /* MLSIndexPath.m */,
+				ACBB52CD97F027FBEC374F027AE11842 /* NSString+MLSExcelView.h */,
+				530ADC7A70F9541C811ACE9083D84446 /* NSString+MLSExcelView.m */,
+			);
+			name = MLSExcelView;
+			path = MLSExcelView;
+			sourceTree = "<group>";
+		};
+		DDA9D6204D1594D8FE7905E9AB9D6D5E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC5C9147108F90CBC1E9832F44FE3F14 /* MLSExcelView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28B5FC5F66E18CDEB4FFF18F4A0128DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC377283A31646479CE9E115F502EDD /* MLSExcelView-umbrella.h in Headers */,
+				10F960C62020B2D138997DBF452CCDB7 /* MLSExcelViewCollectionCell.h in Headers */,
+				48D8E64DF05514027A629904F1C0CAB7 /* MLSExcelViewCollectionHeaderView.h in Headers */,
+				A9E690301D81B013C57251AE3FCA419A /* MLSExcelViewHeader.h in Headers */,
+				6DA38C4B5F2BC6530129BD3B73EAD0FF /* MLSExcelViewView.h in Headers */,
+				7FC1183F50558A164AA87F22405A1D5E /* MLSExcelViewViewEnum.h in Headers */,
+				A7E5D2B5D1DA4244A0D7CD3D2E17C6CA /* MLSExcelViewViewMarcos.h in Headers */,
+				F6F331CD04374E6FC9CB085A1399626F /* MLSIndexPath.h in Headers */,
+				ABA60E283241E25F95B16508476FECDE /* NSString+MLSExcelView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E655619A9E98D534627A2759022540A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4A1BEBCC0CB4A7B95E3CCC4A523D6F /* Pods-MLSExcelViewDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		62FE98B3601C406F25211463FAF111B5 /* Pods-MLSExcelViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FF64C77EBEEFCF37BCAFFC1A7945A1 /* Build configuration list for PBXNativeTarget "Pods-MLSExcelViewDemo" */;
+			buildPhases = (
+				0A75158466B5DDFF7F76E31279A6DC93 /* Sources */,
+				F7304072BBBBE9BB567483E8F1FC0C3A /* Frameworks */,
+				2E655619A9E98D534627A2759022540A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BC1B594D8799A67D7CA03D745E743F /* PBXTargetDependency */,
+			);
+			name = "Pods-MLSExcelViewDemo";
+			productName = "Pods-MLSExcelViewDemo";
+			productReference = C46A2937766A0DC6ABE97EE8B2DA9B3B /* Pods_MLSExcelViewDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91538CFCDB21DD25C06946241FFCD08C /* MLSExcelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41ED183B924CC48C5594E607560EB605 /* Build configuration list for PBXNativeTarget "MLSExcelView" */;
+			buildPhases = (
+				82A3F1747C9A38EC94E902EC4CDCEDC5 /* Sources */,
+				96516F39918032BE67F7330BCFD1CF09 /* Frameworks */,
+				28B5FC5F66E18CDEB4FFF18F4A0128DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLSExcelView;
+			productName = MLSExcelView;
+			productReference = 10374B4AD9FFA8623AC23368A6AE804D /* MLSExcelView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 100DBE6274B17AF356BB314C19157E67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91538CFCDB21DD25C06946241FFCD08C /* MLSExcelView */,
+				62FE98B3601C406F25211463FAF111B5 /* Pods-MLSExcelViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A75158466B5DDFF7F76E31279A6DC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A33AC8495A98A83DF4C65CFC7B2FD2F /* Pods-MLSExcelViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A3F1747C9A38EC94E902EC4CDCEDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802025011C19BBD4705CE8F7307C399D /* MLSExcelView-dummy.m in Sources */,
+				7350355192D91A90D3746F39ECE4B2C2 /* MLSExcelViewCollectionCell.m in Sources */,
+				5F766DA5F8948565825712A99A734155 /* MLSExcelViewCollectionHeaderView.m in Sources */,
+				1D9EA27688BAC2F0FD4368BC68759C70 /* MLSExcelViewView.m in Sources */,
+				3BBE2FC467F37438A801C81930EAF60E /* MLSIndexPath.m in Sources */,
+				64997F6F6F04142FD1F55C2A8C87E2CE /* NSString+MLSExcelView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95BC1B594D8799A67D7CA03D745E743F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLSExcelView;
+			target = 91538CFCDB21DD25C06946241FFCD08C /* MLSExcelView */;
+			targetProxy = 3AD016632606F23EC41D33DD01596F0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27A052B71AFA5B1A83AB880CC7E603BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		32BF3D057FB2FE847A7C2DB060280114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98172080FC6E124C75E745534629F472 /* Pods-MLSExcelViewDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MLSExcelViewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MLSExcelViewDemo/Pods-MLSExcelViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MLSExcelViewDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D124A7C540A9674481F51170DA22332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38680188AB19ABC5E796E1580D5F511B /* MLSExcelView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLSExcelView/MLSExcelView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLSExcelView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MLSExcelView/MLSExcelView.modulemap";
+				PRODUCT_NAME = MLSExcelView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		866007410C94F6CFEB704A08B7433755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38680188AB19ABC5E796E1580D5F511B /* MLSExcelView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLSExcelView/MLSExcelView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLSExcelView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MLSExcelView/MLSExcelView.modulemap";
+				PRODUCT_NAME = MLSExcelView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9737F31851E1622FC0C8FAA6D551EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CB99E7BD16827B2B24E9C0384520E4 /* Pods-MLSExcelViewDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MLSExcelViewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MLSExcelViewDemo/Pods-MLSExcelViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MLSExcelViewDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A052B71AFA5B1A83AB880CC7E603BC /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41ED183B924CC48C5594E607560EB605 /* Build configuration list for PBXNativeTarget "MLSExcelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866007410C94F6CFEB704A08B7433755 /* Debug */,
+				6D124A7C540A9674481F51170DA22332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78FF64C77EBEEFCF37BCAFFC1A7945A1 /* Build configuration list for PBXNativeTarget "Pods-MLSExcelViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BF3D057FB2FE847A7C2DB060280114 /* Debug */,
+				D9737F31851E1622FC0C8FAA6D551EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

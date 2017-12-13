@@ -1,0 +1,6 @@
+framework module MLSExcelView {
+  umbrella header "MLSExcelView-umbrella.h"
+
+  export *
+  module * { export * }
+}

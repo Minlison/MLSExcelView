@@ -1,0 +1,16 @@
+PODS:
+  - MLSExcelView (0.0.1)
+
+DEPENDENCIES:
+  - MLSExcelView (from `../MLSExcelView/`)
+
+EXTERNAL SOURCES:
+  MLSExcelView:
+    :path: "../MLSExcelView/"
+
+SPEC CHECKSUMS:
+  MLSExcelView: 216e59ca98c6bbb91e8bf91571d60c329778eeba
+
+PODFILE CHECKSUM: a748adea287bc3b66a61a94d4db477c6ba608b93
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,25 @@
+{
+  "name": "MLSExcelView",
+  "version": "0.0.1",
+  "summary": "自定义表格布局视图",
+  "description": "类似 excel 表格的原生页面视图布局",
+  "homepage": "https://github.com/Minlison/MLSExcelView.git",
+  "license": {
+    "type": "Apache",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MinLison": "yuanhang.1991@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/Minlison/MLSExcelView.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "MLSExcelView/**/*.{h,m}",
+  "public_header_files": "MLSExcelView/**/*.h",
+  "frameworks": "UIKit",
+  "requires_arc": true
+}
